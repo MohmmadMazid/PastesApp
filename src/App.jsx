@@ -13,7 +13,7 @@ function App() {
   console.log("data of the reducer is ", data.pastes);
 
   return (
-    <>
+    <div className="h-full">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path="/update/:id" element={<UpdatePaste />} />
         <Route path="/seePaste/:id" element={<Seepaste />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
