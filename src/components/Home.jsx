@@ -20,7 +20,7 @@ const Home = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white p-4">
+    <div className="h-full min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white p-4">
       <div className="text-center mb-6">
         <h1 className="text-3xl md:text-4xl font-extrabold text-indigo-400 mb-2 drop-shadow-lg">
           Create Your Paste
